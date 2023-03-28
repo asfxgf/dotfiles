@@ -1,0 +1,27 @@
+[1mdiff --git a/gitconfig b/gitconfig[m
+[1mindex 5b0050a..1125f0c 100644[m
+[1m--- a/gitconfig[m
+[1m+++ b/gitconfig[m
+[36m@@ -49,3 +49,9 @@[m
+ [user][m
+ 	email = deleglise.quentin@hotmail.fr[m
+ 	name = quentin deleglise[m
+[32m+[m[32m[credential "https://github.com"][m
+[32m+[m	[32mhelper =[m[41m [m
+[32m+[m	[32mhelper = !/usr/bin/gh auth git-credential[m
+[32m+[m[32m[credential "https://gist.github.com"][m
+[32m+[m	[32mhelper =[m[41m [m
+[32m+[m	[32mhelper = !/usr/bin/gh auth git-credential[m
+[1mdiff --git a/zshrc b/zshrc[m
+[1mindex 0cebe11..5dbfcf6 100644[m
+[1m--- a/zshrc[m
+[1m+++ b/zshrc[m
+[36m@@ -4,7 +4,7 @@[m [mZSH=$HOME/.oh-my-zsh[m
+ ZSH_THEME="robbyrussell"[m
+ [m
+ # Useful oh-my-zsh plugins for Le Wagon bootcamps[m
+[31m-plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search)[m
+[32m+[m[32mplugins=(git gitfast last-working-dir common-aliases sublime zsh-syntax-highlighting history-substring-search ssh-agent)[m
+ [m
+ # (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/docs/Analytics.md[m
+ export HOMEBREW_NO_ANALYTICS=1[m
