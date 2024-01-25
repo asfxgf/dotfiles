@@ -48,7 +48,7 @@
   mergeoptions = --no-edit
 [user]
 	email = deleglise.quentin@hotmail.fr
-	name = quentin deleglise
+	name = Quentin DELEGLISE
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
